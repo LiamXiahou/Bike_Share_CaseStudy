@@ -10,7 +10,7 @@ Audience : Marketing team, Executive team
 - where is data located ? -->[Raw data source](https://divvy-tripdata.s3.amazonaws.com/index.html)
 - How is data orgnaized ? --> by month, quarter or year. 
 
-**How to scrape all csv files which are inside zip file with script ? -->** *unknown, currently just manually downloaded files and extract them individually*
+**How to scrape all csv files which are inside zip file with script ? -->** *unknown, currently just manually downloaded files and extract them individually*\
 **How to upload all tables (csv files) to DB ? --> \
     ~~tried MS Access which does not support csv. ~~\
     DBeaver works well to load all files from 202004 to 202202 which tooks couples of mininutes.\
