@@ -11,11 +11,11 @@ Audience : Marketing team, Executive team
 - How is data orgnaized ? --> by month, quarter or year. 
 
 **How to scrape all csv files which are inside zip file with script ? -->** *unknown, currently just manually downloaded files and extract them individually*
-**How to upload all tables (csv files) to DB ? --> 
-    ~~tried MS Access which does not support csv. ~~
-    DBeaver works well to load all files from 202004 to 202202 which tooks couples of mininutes.
-    ![image](https://user-images.githubusercontent.com/102010540/159379398-216dc8df-cab1-444b-8fbb-553ee5522f7d.png)
-Does it need merge all tables ? if not how to do analysis to mutiple tables ?**
+**How to upload all tables (csv files) to DB ? --> \
+    ~~tried MS Access which does not support csv. ~~\
+    DBeaver works well to load all files from 202004 to 202202 which tooks couples of mininutes.\
+    ![image](https://user-images.githubusercontent.com/102010540/159379398-216dc8df-cab1-444b-8fbb-553ee5522f7d.png)\
+Does it need merge all tables ? if not how to do analysis to mutiple tables ?**\
 - Are there issues with bias or credibility in this data? Does your data ROCCC? --> should not be becasue this is the only data from the case study 😂
 - How are you addressing licensing, privacy, security, and accessibility? --> no idea
 - How did you verify the data’s integrity? --> will check later. However, the data is huge . 
