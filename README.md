@@ -26,7 +26,7 @@ Does it need merge all tables ? merging will be beneficial for data cleaning**\
     ![image](https://user-images.githubusercontent.com/102010540/159625507-52ca45fc-cc04-4f20-95a1-8c4676aec008.png)\
     Correct it by changing the 2 fields to var data type in DBeaver:\
     ![image](https://user-images.githubusercontent.com/102010540/159628757-eb103b08-2f71-4f9a-b7eb-b0533aecc614.png)\
-    It did not work while trying to update all tables using SQL syntax. 
+    It did not work while trying to update all tables using SQL syntax. \
     ~~~
     {
     ALTER TABLE "Bike_Share"."202011_divvy_tripdata_csv" ALTER COLUMN start_station_id TYPE varchar(1024) USING start_station_id::varchar;
