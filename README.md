@@ -22,10 +22,10 @@ Does it need merge all tables ? merging will be beneficial for data cleaning**\
     ![image](https://user-images.githubusercontent.com/102010540/159621703-3559b137-1d12-4231-86ed-e7f867181204.png)\
     How to find out which table(s) having wrong data type of field(s) ?\
     Could not figure out how to highlight error line. the position error does not help at all. 🚩\
-    Execute selected syntax by *selecting + ctrl+Enter* and find out talbe 202012 field data type is different from others. 👍\
+    Execute selected syntax by *selecting + ctrl+Enter* and find out talbe 202012 onward data type of start_staion_id and end_station_id are var while the others are int4. 👍\
     ![image](https://user-images.githubusercontent.com/102010540/159625507-52ca45fc-cc04-4f20-95a1-8c4676aec008.png)
-    Correct it in DBeaver:\
-    ![image](https://user-images.githubusercontent.com/102010540/159626010-a9cffebc-5bbd-4550-92a1-cd3ebcc6e2dc.png)\
+    Correct it by changing the 2 fields to var data type in DBeaver:\
+    
 - Are there issues with bias or credibility in this data? Does your data ROCCC? --> should not be becasue this is the only data from the case study 😂
 - How are you addressing licensing, privacy, security, and accessibility? --> no idea
 - How did you verify the data’s integrity? --> will check later. However, the data is huge . 
