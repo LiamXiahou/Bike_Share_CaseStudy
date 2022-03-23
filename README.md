@@ -27,7 +27,7 @@ Does it need merge all tables ? merging will be beneficial for data cleaning**\
     Correct it by changing the 2 fields to var data type in DBeaver:\
     ![image](https://user-images.githubusercontent.com/102010540/159628757-eb103b08-2f71-4f9a-b7eb-b0533aecc614.png)\
     Have to update data type of table one by one .It did not work while trying to update all tables using SQL syntax. 🚩 \
-    **However, it worked successfully UNION completed ! 👍 **
+    **However, it worked successfully and UNION completed after updating data type of the 2 fields ! **  👍
     
     ```
     {
