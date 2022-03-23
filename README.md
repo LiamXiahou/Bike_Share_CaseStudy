@@ -24,6 +24,8 @@ Does it need merge all tables ? merging will be beneficial for data cleaning**\
     Could not figure out how to highlight error line. the position error does not help at all. 🚩\
     Execute selected syntax by *selecting + ctrl+Enter* and find out talbe 202012 field data type is different from others. 👍\
     ![image](https://user-images.githubusercontent.com/102010540/159625507-52ca45fc-cc04-4f20-95a1-8c4676aec008.png)
+    Correct it in DBeaver:\
+    ![image](https://user-images.githubusercontent.com/102010540/159625727-eba921b9-0b3e-4e54-9010-95f7146ca610.png)
 
 - Are there issues with bias or credibility in this data? Does your data ROCCC? --> should not be becasue this is the only data from the case study 😂
 - How are you addressing licensing, privacy, security, and accessibility? --> no idea
