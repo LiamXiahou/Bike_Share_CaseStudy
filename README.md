@@ -32,7 +32,7 @@ Does it need merge all tables ? merging will be beneficial for data cleaning**\
     ALTER TABLE "Bike_Share"."202011_divvy_tripdata_csv" ALTER COLUMN start_station_id TYPE varchar(1024) USING start_station_id::varchar;
     ALTER TABLE "Bike_Share"."202011_divvy_tripdata_csv" ALTER COLUMN end_station_id TYPE varchar(1024) USING end_station_id::varchar;
     }
-    ```
+    ```\
     **However, it worked successfully and UNION completed after updating data type of the 2 fields**  👍
 - Are there issues with bias or credibility in this data? Does your data ROCCC? --> should not be becasue this is the only data from the case study 😂
 - How are you addressing licensing, privacy, security, and accessibility? --> no idea
