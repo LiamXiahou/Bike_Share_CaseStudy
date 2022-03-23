@@ -29,7 +29,7 @@ Does it need merge all tables ? merging will be beneficial for data cleaning**\
     It did not work while trying to update all tables using SQL syntax. \
     ```
     {
-    ALTER TABLE "Bike_Share"."202011_divvy_tripdata_csv" ALTER COLUMN start_station_id TYPE varchar(1024) USING start_station_id::varchar;\
+    ALTER TABLE "Bike_Share"."202011_divvy_tripdata_csv" ALTER COLUMN start_station_id TYPE varchar(1024) USING start_station_id::varchar;
     ALTER TABLE "Bike_Share"."202011_divvy_tripdata_csv" ALTER COLUMN end_station_id TYPE varchar(1024) USING end_station_id::varchar;
     }
     ```
