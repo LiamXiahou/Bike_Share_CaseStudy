@@ -23,9 +23,10 @@ Does it need merge all tables ? merging will be beneficial for data cleaning**\
     How to find out which table(s) having wrong data type of field(s) ?\
     Could not figure out how to highlight error line. the position error does not help at all. 🚩\
     Execute selected syntax by *selecting + ctrl+Enter* and find out talbe 202012 onward data type of start_staion_id and end_station_id are var while the others are int4. 👍\
-    ![image](https://user-images.githubusercontent.com/102010540/159625507-52ca45fc-cc04-4f20-95a1-8c4676aec008.png)
+    ![image](https://user-images.githubusercontent.com/102010540/159625507-52ca45fc-cc04-4f20-95a1-8c4676aec008.png)\
     Correct it by changing the 2 fields to var data type in DBeaver:\
-    
+    ![image](https://user-images.githubusercontent.com/102010540/159628757-eb103b08-2f71-4f9a-b7eb-b0533aecc614.png)
+
 - Are there issues with bias or credibility in this data? Does your data ROCCC? --> should not be becasue this is the only data from the case study 😂
 - How are you addressing licensing, privacy, security, and accessibility? --> no idea
 - How did you verify the data’s integrity? --> will check later. However, the data is huge . 
