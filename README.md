@@ -18,10 +18,13 @@ Audience : Marketing team, Executive team
 Does it need merge all tables ? merging will be beneficial for data cleaning**\
    --> Used *UNION ALL* to consolidate all files into one file. 👍\
    ![image](https://user-images.githubusercontent.com/102010540/159621614-394d9673-d3de-4631-8862-f6b8b3ad10cb.png)\
-    -->However, there is error message indicating data type of tables are not the same which helps on data cleaning. 🚩 \
+    -->However, there is error message indicating data type of tables are not the same which helps on data cleaning. 🏖️ \
     ![image](https://user-images.githubusercontent.com/102010540/159621703-3559b137-1d12-4231-86ed-e7f867181204.png)\
     How to find out which table(s) having wrong data type of field(s) ?\
-    -->
+    Could not figure out how to highlight error line. the position error does not help at all. 🚩\
+    Execute selected syntax by *selecting + ctrl+Enter* and find out talbe 202012 field data type is different from others. 👍\
+    ![image](https://user-images.githubusercontent.com/102010540/159625507-52ca45fc-cc04-4f20-95a1-8c4676aec008.png)
+
 - Are there issues with bias or credibility in this data? Does your data ROCCC? --> should not be becasue this is the only data from the case study 😂
 - How are you addressing licensing, privacy, security, and accessibility? --> no idea
 - How did you verify the data’s integrity? --> will check later. However, the data is huge . 
