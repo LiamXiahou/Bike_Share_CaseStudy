@@ -163,6 +163,17 @@ from bike_share_all bsa
 ```
 \
 2. In real case, will have to verfiy if those station with * or temp are the same as ones without such tails. 
+3. Failed to pull records of having blank of either start or end of station. DBeaver does not support Isempty nor Isblank. Isnull does not fit into this enquiry. 
+```
+{
+select distinct trim(start_station_name) as trim_start_station_name,trim(end_station_name) as trim_end_station_name,start_station_id ,end_station_id 
+from bike_share_all bsa 
+where start_station_name isempty  ;
+}
+```
+\
+Output error -> ![image](https://user-images.githubusercontent.com/102010540/160211202-8daa8845-289d-47e4-b8f3-de6cc23552d0.png)
+\
 
 ### How does it help you answer your question? --> TBD
 ### Are there any problems with the data? --> TBD
