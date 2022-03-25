@@ -7,8 +7,8 @@ What is the business goal ?
 - why casual riders would buy a membership, and how digital media could affect their marketing tactics ?
 Audience : Marketing team, Executive team
 ## Prepare
-- where is data located ? -->[Raw data source](https://divvy-tripdata.s3.amazonaws.com/index.html)
-- How is data orgnaized ? --> by month, quarter or year. 
+###- where is data located ? -->[Raw data source](https://divvy-tripdata.s3.amazonaws.com/index.html)
+###- How is data orgnaized ? --> by month, quarter or year. 
 
 **How to scrape all csv files which are inside zip file with script ? -->** *unknown, currently just manually downloaded files and extract them individually*\
 **How to upload all tables (csv files) to DB ? --> \
@@ -123,9 +123,9 @@ With manually refresh tables in left panel, Unioned table is added to under tabl
 \
 ![image](https://user-images.githubusercontent.com/102010540/160200151-0f8a9bb0-f81e-4c5a-987f-a221c4e4ecdb.png)
 
-- Are there issues with bias or credibility in this data? Does your data ROCCC? --> should not be becasue this is the only data from the case study 😂
-- How are you addressing licensing, privacy, security, and accessibility? --> just trust data what Coursera provides. 
-- How did you verify the data’s integrity?  
+###- Are there issues with bias or credibility in this data? Does your data ROCCC? --> should not be becasue this is the only data from the case study 😂
+###- How are you addressing licensing, privacy, security, and accessibility? --> just trust data what Coursera provides. 
+###- How did you verify the data’s integrity?  
 Run some summary report to check DI. 
 ```
 {
@@ -137,5 +137,5 @@ group by rideable_type, member_casual
 Output as belw does not show DI issue on fields of rideable_type, member_casual \
 ![image](https://user-images.githubusercontent.com/102010540/160202475-aa9edd89-fa35-4d84-925b-66c054faaef2.png)
 
-- How does it help you answer your question? --> TBD
-- Are there any problems with the data? --> TBD
+###- How does it help you answer your question? --> TBD
+###- Are there any problems with the data? --> TBD
