@@ -147,7 +147,10 @@ start_station_name
 }
 ```
 \
-Output file to excel from which found some errors as below highlighted in red: \
+Output file to excel from which found some errors as some shown as in below highlighted in red: \
+1. leading and trailing spaces from a string.
+2. questionalbe names with * or temp in the end. 
+3. missing ~850 names in each of Start and End station.  
 ![image](https://user-images.githubusercontent.com/102010540/160207805-0850b8ff-7b1d-41d8-8b14-9d0c84ec18fa.png)
 \
 **Solution**
