@@ -34,7 +34,8 @@ Does need stack all tables ? stacking will be beneficial for data cleaning**\
     }
     ```\
     **However, it worked successfully and UNION completed after updating data type of the 2 fields**  👍\
-    **It took ~30s to stack 23 tables into 8929238 rows. --> **\
+    **It took ~30s to stack 23 tables into 8929238 rows. --> **
+    \
     ```
     {
     select * 
@@ -114,9 +115,8 @@ from "Bike_Share"."202202_divvy_tripdata_csv"
     ```
     \
     Output:
-    ![image](https://user-images.githubusercontent.com/102010540/160196585-dfabe02f-b28a-45e0-893b-3d1cd77b72d4.png)\
-
-
+    ![image](https://user-images.githubusercontent.com/102010540/160196585-dfabe02f-b28a-45e0-893b-3d1cd77b72d4.png)
+\
 - Are there issues with bias or credibility in this data? Does your data ROCCC? --> should not be becasue this is the only data from the case study 😂
 - How are you addressing licensing, privacy, security, and accessibility? --> no idea
 - How did you verify the data’s integrity? --> will check later. However, the data is huge . 
