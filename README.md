@@ -112,6 +112,7 @@ from "Bike_Share"."202202_divvy_tripdata_csv"
 ) Bike_Share_All
     }
     ```
+    \
     Output:
     ![image](https://user-images.githubusercontent.com/102010540/160196585-dfabe02f-b28a-45e0-893b-3d1cd77b72d4.png)\
 
