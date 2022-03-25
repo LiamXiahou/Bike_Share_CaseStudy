@@ -136,6 +136,7 @@ group by rideable_type, member_casual
 ```
 Output as belw does not show DI issue on fields of rideable_type, member_casual \
 ![image](https://user-images.githubusercontent.com/102010540/160202475-aa9edd89-fa35-4d84-925b-66c054faaef2.png)
+\
 ☑️ Check DI of station name
 ```
 {
@@ -146,7 +147,7 @@ start_station_name
 }
 ```
 \
-Output file to excel from which found some errors as below: \
+Output file to excel from which found some errors as below highlighted in red: \
 ![image](https://user-images.githubusercontent.com/102010540/160207805-0850b8ff-7b1d-41d8-8b14-9d0c84ec18fa.png)
 \
 ### How does it help you answer your question? --> TBD
