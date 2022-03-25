@@ -124,7 +124,18 @@ With manually refresh tables in left panel, Unioned table is added to under tabl
 ![image](https://user-images.githubusercontent.com/102010540/160200151-0f8a9bb0-f81e-4c5a-987f-a221c4e4ecdb.png)
 
 - Are there issues with bias or credibility in this data? Does your data ROCCC? --> should not be becasue this is the only data from the case study 😂
-- How are you addressing licensing, privacy, security, and accessibility? --> no idea
-- How did you verify the data’s integrity? --> will check later. However, the data is huge . 
+- How are you addressing licensing, privacy, security, and accessibility? --> just trust data what Coursera provides. 
+- How did you verify the data’s integrity?  
+Run some summary report to check DI. 
+```
+{
+select rideable_type, member_casual ,count(*)
+from bike_share_all 
+group by rideable_type, member_casual  
+}
+```
+Output as belw does not show DI issue on fields of rideable_type, member_casual \
+![image](https://user-images.githubusercontent.com/102010540/160202475-aa9edd89-fa35-4d84-925b-66c054faaef2.png)
+
 - How does it help you answer your question? --> TBD
 - Are there any problems with the data? --> TBD
