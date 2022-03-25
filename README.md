@@ -150,7 +150,7 @@ start_station_name
 Output file to excel from which found some errors as below highlighted in red: \
 ![image](https://user-images.githubusercontent.com/102010540/160207805-0850b8ff-7b1d-41d8-8b14-9d0c84ec18fa.png)
 \
-**solution :  ** 
+**solution : 
 1. Keep in mind to use trim() function to pull station name for analysis. 
 ```
 {
