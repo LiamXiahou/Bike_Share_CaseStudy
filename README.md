@@ -117,6 +117,9 @@ from "Bike_Share"."202202_divvy_tripdata_csv"
     Output:
     ![image](https://user-images.githubusercontent.com/102010540/160196585-dfabe02f-b28a-45e0-893b-3d1cd77b72d4.png)
 \
+With manually refresh tables in left panel, Unioned table is added to under table --> ** We will only need to deal with one table instead of 20+ tables **\
+![image](https://user-images.githubusercontent.com/102010540/160200151-0f8a9bb0-f81e-4c5a-987f-a221c4e4ecdb.png)
+
 - Are there issues with bias or credibility in this data? Does your data ROCCC? --> should not be becasue this is the only data from the case study 😂
 - How are you addressing licensing, privacy, security, and accessibility? --> no idea
 - How did you verify the data’s integrity? --> will check later. However, the data is huge . 
