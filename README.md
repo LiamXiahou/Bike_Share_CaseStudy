@@ -172,7 +172,7 @@ where start_station_name isempty  ;
 }
 ```
 \
-Output error -> ![image](https://user-images.githubusercontent.com/102010540/160211202-8daa8845-289d-47e4-b8f3-de6cc23552d0.png)
+Output error -> 👎 ![image](https://user-images.githubusercontent.com/102010540/160211202-8daa8845-289d-47e4-b8f3-de6cc23552d0.png)
 \
 
 ### How does it help you answer your question? --> TBD
